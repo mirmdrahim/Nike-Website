@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gupter:wght@400;500;700&family=Teko:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.top-navbar{
+    width: 100%;
+    height: 7vh;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.top-icons{
+    margin-left: 45px;
+
+}
+
+.top-icons i{
+    font-size: 20px;
+    color: #1E3050;
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+
+.other-links{
+    margin-right: 33px;
+
+}
+
+.other-links i{
+    color: #1E3050;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+#btn-login{
+    width: 100px;
+    border: 2px solid #1E3050;
+    color: #1E3050;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 5vh;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+}
+
+#btn-login a{
+    text-decoration: none;
+    color: #1E3050;
+    transition: 0.5s ease;
+
+}
+
+#btn-login a:hover{
+    background-color: #1E3050;
+    color: antiquewhite;
+
+}
+
+#btn-login:hover{
+    background-color: #1E3050;
+    color:antiquewhite ;
+}
+
+#btn-signup{
+    width: 100px;
+    border: 2px solid #1E3050;
+    color: #1E3050;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 5vh;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+}
+
+#btn-signup a{
+    text-decoration: none;
+    color: #1E3050;
+    transition: 0.5s ease;
+
+}
+
+#btn-signup a:hover{
+    background-color: #1E3050;
+    color: antiquewhite;
+
+}
+
+#btn-signup:hover{
+    background-color: #1E3050;
+    color:antiquewhite ;
+
+}
+
+@media screen and (max-width:500px){
+    .top-icons{
+        margin-left: 5px;
+    }
+    .top-icons i{
+        font-size: 15px;
+    }
+    .other-links i{
+        font-size: 15px;
+    }
+    #btn-login{
+        width: 60px;
+        height: 5vh;
+    }
+    #btn-signup{
+        width: 70px;
+        height: 5vh;
+    }
+}
+
+@media screen and (max-width:350px){
+    .top-icons{
+        margin-left: 10px;
+    }
+    .top-icons i{
+        font-size: 10px;
+    }
+    .other-links{
+        margin-right: 10px;
+    }
+    .other-links i{
+        font-size: 10px;
+    }
+    #btn-login{
+        width: 50px;
+        height: 5vh;
+        font-size: 13px;
+    }
+    #btn-signup{
+        width: 60px;
+        height: 5vh;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:350px){
+    .top-icons{
+        margin-left: 5px;
+    }
+    .top-icons i{
+        font-size: 12px;
+    }
+    .other-links{
+        margin-right: 10px;
+    }
+    .other-links i{
+        font-size: 12px;
+    }
+    #btn-login{
+        width: 40px;
+        height: 5vh;
+        font-size: 10px;
+    }
+    #btn-signup{
+        width: 50px;
+        height: 5vh;
+        font-size: 10px;
+    }
+}
+
+
+                        /*  HOME-SECTION */
+
+.home-section{
+    width: 100%;
+    height: 93vh;
+    background-color:#F6F6F6;
+
+}
+
+.navi{
+    font-family: "Gupter", serif;
+    font-size: 16px;
+    background-color: white;   
+
+}
+
+
+                        /* N-A-V-B-A-R */
+.nav{
+    margin-left:0px;
+}
+
+#navbar{
+    background-color: white;
+    font-size: 16px;
+    font-family: "Gupter", serif;   
+
+}
+
+.navbar-brand{
+    margin-left:30px;
+    cursor: pointer;
+    
+}
+
+#navbar .nav-link{
+    color: black;
+    font-weight: bold;
+    margin-left: 5px;
+    transition: 0.5s ease;
+
+}
+
+#navbar .nav-link:hover{
+    color: orangered;
+    border-radius: 5px;
+
+}
+
+.dropdown li a{
+    color: white;
+   
+}
+
+ #search-btn{
+    color: black;
+    border: 1px solid black;
+
+}
+
+#search-btn:hover{
+    background-color: white;
+
+}
+                                /* N-A-V-B-A-R */
+
+                                /* NIVO-SLIDER */
+.nivo-caption {
+    position: absolute;
+    left: 0px;
+    bottom: -39px;
+    background: #000;
+    color: #fff;
+    width: 100%;
+    z-index: 8;
+    padding: 5px 10px;
+    opacity: 0.8;
+    overflow: hidden;
+    display: none;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity = 8);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.theme-dark .nivo-controlNav a {
+    display: inline-block;
+    height: 10px;
+    background: url(bullets.png) no-repeat 0 2px;
+    text-indent: -9999px;
+    border: 0;
+    margin: 0 2px;
+}
+                                /* NIVO-SLIDER */
+
+                                /* HOME-CONTENT */
+.home{
+    background-color: #F6F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 0;
+    font-family: "Gupter", serif;
+
+}
+
+.home .img{
+    flex: 1 1 400px;
+
+}
+
+.home .img img{
+    width: 100%;
+
+}
+
+.home .content{
+    flex: 1 1 400px;
+    margin-top: 30px;
+
+}
+
+.content h3{
+    margin-left: 10px;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px black;
+    color: #1E3050;
+    font-weight: bold;
+
+}
+
+.content h3 span{
+    font-size: 40px;
+
+}
+
+.content p{
+    margin-left: 16px;
+    color: #1E3050;
+
+}
+
+.content #shopnow{
+    margin-left: 72px;
+    width: 200px;
+    height: 38px;
+    border: 2px solid #1E3050;
+    font-weight: bold;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+}
+
+.content #shopnow:hover{
+    background-color: #1E3050;
+    color: white;
+
+}
+
+@media screen and(max-width:800px){
+    .content h3{
+        margin-left: 50px;
+        font-size: 40px;
+
+    }
+    .content p{
+        margin-left: 50px;
+
+    }
+    .content #shopnow{
+        margin-left: 50px;
+        
+    }
+}
+
+@media screen and(max-width:570px){
+    .content h3{
+        margin-left: 20px;
+
+    }
+    .content p{
+        margin-left: 20px;
+
+    }
+    .content #shopnow{
+        margin-left: 20px;
+
+    }
+}
+
+@media screen and(max-width:799px){
+    .home-section{
+        height: 150vh;
+        
+    }
+}
+
+@media screen and(max-width:550px){
+    .home-section{
+        height: 100vh;
+
+    }
+}
+                            /* HOME-CONTENT */
+
+                            /*  HOME-SECTION */
+
+                            /* TOP-CARDS */
+
+#top-cards{
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-family: "Gupter", serif;
+
+}
+#top-cards .card img{
+    width: 44vh;
+
+}
+#top-cards h5{
+    color: #1E3050;
+    font-weight: bold;
+
+}
+#top-cards button{
+    width: 90px;
+    height: 29px;
+    font-weight: bold;
+    /* letter-spacing: 1ex; */
+    background: transparent;
+    color: #1E3050;
+    border: 2px solid #1E3050;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+}
+#top-cards button:hover{
+    background-color: #1E3050;
+    color: white;
+}
+                            /* TOP-CARDS */
